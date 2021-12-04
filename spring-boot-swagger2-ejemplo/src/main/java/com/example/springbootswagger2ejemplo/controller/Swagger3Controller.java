@@ -1,6 +1,11 @@
 package com.example.springbootswagger2ejemplo.controller;
 
 import com.example.springbootswagger2ejemplo.model.User;
+
+import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.responses.ApiResponse;
+import io.swagger.v3.oas.annotations.tags.Tag;
+
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -11,6 +16,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 @RestController
+@Tag(name = "M.E", description = "Api de prueba con user")
 @RequestMapping("/api")
 public class Swagger3Controller {
 
@@ -21,12 +27,22 @@ public class Swagger3Controller {
 		users.add(new User(3,"TechGeekNext-User3", "USER", "user3@test.com"));
 		users.add(new User(4,"TechGeekNext-User4", "USER", "user4@test.com"));
 	}
-
-
+	
 	@RequestMapping(value = "/getUsers", method = RequestMethod.GET, produces = "application/json")
 	public List<User> getUsers() {
 		return users;
 	}
+	
+	@Operation(summary = "Greets a person",
+            description = "......"
+    )
+	@ApiResponse(responseCode = "500", description = "Server error")
+	@ApiResponse(responseCode = "400", description = "Invalid Name ")
+    @ApiResponse(responseCode = "404", description = "User not found")
+	@ApiResponse(responseCode = "200", description = "Successful")
+    @Tag(name = "greeting")
+	
+
 
 	@RequestMapping(value = "/getUser/{id}", method = RequestMethod.GET, produces = "application/json")
 	public User getUserById(@PathVariable(value = "id") int id) {
