@@ -1,5 +1,5 @@
-# Api-spring-swagger3
-Crud-Swagger3-SpringBoot.
+# Api-Spring-Swagger UI
+Crud-SwaggerUI-SpringBoot.
 
 Api de creación, eliminación, visualización de listado de: Users. 
 
