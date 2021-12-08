@@ -60,6 +60,9 @@ _GET:http://localhost:8088/api/getUsers_
 _DELETE:http://localhost:8088/api/delete/{id}_
 ![image](https://user-images.githubusercontent.com/19162592/145292904-a73b34f4-1827-4166-9c4a-6de300e6c603.png)
 
+_PUT:http://localhost:8088/api/put_
+![image](https://user-images.githubusercontent.com/19162592/145294261-6c14f506-c473-44ad-bb02-95e8b33d8989.png)
+
 
 ## Construido con 🛠️
 
