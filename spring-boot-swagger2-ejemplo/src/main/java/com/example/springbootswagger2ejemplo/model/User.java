@@ -9,7 +9,10 @@ public class User {
 	private String role;
 
 	private String email;
-
+	
+	public User(){
+		super();
+	}
 	public User(int id, String name, String role, String email) {
 		this.id = id;
 		this.name = name;
@@ -48,7 +51,7 @@ public class User {
 	public void setEmail(String email) {
 		this.email = email;
 	}
-
+/*
 	@Override
 	public String toString() {
 		return "User{" +
@@ -57,5 +60,5 @@ public class User {
 				", role='" + role + '\'' +
 				", email='" + email + '\'' +
 				'}';
-	}
+	}*/
 }
