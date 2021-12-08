@@ -35,6 +35,31 @@ _Dirigirse a la ruta_
 ```
 http://localhost:8088/swagger-ui.html
 ```
+![image](https://user-images.githubusercontent.com/19162592/145290053-2c38083a-8ae0-4c7d-9311-763e07957abf.png)
+
+## Test 🧪
+
+_POST:http://localhost:8088/api/add_
+
+![image](https://user-images.githubusercontent.com/19162592/145290521-685863ab-494e-4f28-87e8-ff6e48e1309a.png)
+
+_GET:http://localhost:8088/api/getUsers_
+
+![image](https://user-images.githubusercontent.com/19162592/145290774-89c7b56d-d8b4-4002-b954-c1c28b7b60c1.png)
+
+Postman ✉️
+
+_POST:http://localhost:8088/api/add_
+![image](https://user-images.githubusercontent.com/19162592/145292321-5d6d8bbc-8321-4a3b-93ce-5bfe7475c09a.png)
+
+
+_GET:http://localhost:8088/api/getUsers_
+
+![image](https://user-images.githubusercontent.com/19162592/145292575-6202ac8f-c954-4aa5-98b3-50bfab7ebd2c.png)
+
+_DELETE:http://localhost:8088/api/delete/{id}_
+![image](https://user-images.githubusercontent.com/19162592/145292904-a73b34f4-1827-4166-9c4a-6de300e6c603.png)
+
 
 ## Construido con 🛠️
 
