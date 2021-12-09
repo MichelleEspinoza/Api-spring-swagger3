@@ -1,7 +1,7 @@
 # Api-Spring-Swagger UI
 Crud-SwaggerUI-SpringBoot.
 
-Api de creación, eliminación, visualización de listado de: Users. 
+Api de creación, eliminación, visualización de listado en un LIST de: Users. 
 
 ## Comenzando 🚀
 
