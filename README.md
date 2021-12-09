@@ -64,10 +64,13 @@ _PUT:http://localhost:8088/api/put_
 ![image](https://user-images.githubusercontent.com/19162592/145294261-6c14f506-c473-44ad-bb02-95e8b33d8989.png)
 
 
+Workspace con test: https://go.postman.co/workspace/My-Workspace~b59d9eca-4714-4b09-8cce-966ac60096ca/collection/18589036-9bb55084-db0b-4de2-be49-95cfae2948e3
+
 ## Construido con 🛠️
 
 * [Spring Boot 2.6.1](https://start.spring.io/) - El framework web usado
 * [Java 1.8.0_161](https://www.oracle.com/mx/java/technologies/javase/javase8-archive-downloads.html) -Lenguaje usado
+* [Neon.2 Release 4.6.2]-IDE usado
 * [springdoc-openapi-ui 1.5.12](https://mvnrepository.com/artifact/org.springdoc/springdoc-openapi-ui/1.5.12)- Documentación de API
 * [Swagger-ui](https://swagger.io/specification/)-Notaciones para documentación de API
 * [Postman](https://www.postman.com/downloads/) - Cliente HTTP 
