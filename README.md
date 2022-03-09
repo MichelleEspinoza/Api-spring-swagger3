@@ -30,7 +30,10 @@ _Inicializar App_
 
 ![image](https://user-images.githubusercontent.com/19162592/145287630-63917eda-8aea-4dc1-aa8b-1d57377ee572.png)
 
-_Dirigirse a la ruta_
+_En caso de ERROR en clase main: Verificar que se cuente con JavaSE-1.8 en Libraries_
+![image](https://user-images.githubusercontent.com/19162592/157557759-b86e7709-2e4a-486d-9094-2a518df20cbf.png)
+
+_Ahora si, una vez inicializada la app, Dirigirse a la ruta_
 
 ```
 http://localhost:8088/swagger-ui.html
